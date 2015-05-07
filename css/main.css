@@ -1,0 +1,57 @@
+body{
+    padding: 40px;
+    background: #eee;
+
+}
+body, p {
+    font-size: 24px;
+}
+#todo-items-view{
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding-left: 0;
+    margin-top: 0;
+    background: #fff;
+}
+
+#todo-items-view > li{
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#todo-items-view > li > #delete{
+    float: right;
+    font-size: 14px;
+    background: #d9534f;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    padding: 3px;
+
+}
+#todo-items-view > li > label{
+    width: 80%;
+    display: inline-block;
+}
+
+#todo-items-view li.completed > label{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+#newTodoItem{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#todoItemsContainer{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+

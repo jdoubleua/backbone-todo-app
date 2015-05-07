@@ -1,0 +1,7 @@
+
+<script type = "text/html" id = "todoItemTemplate">
+    <input type = "checkbox" {{#completed}}checked{{/completed}} id = "toggle" />
+        {{title}}
+    <button id = "delete">Delete</button>
+
+</script>
